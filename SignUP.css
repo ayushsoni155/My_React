@@ -1,0 +1,67 @@
+body {
+    background-color: #c5c5c5; /* Changed background color */
+    font-family: Arial, sans-serif; /* Changed font family */
+    margin: 0;
+    padding: 0;
+}
+p {
+    color: rgb(84, 83, 83);
+    display: inline;
+    font-size: x-small;
+}
+#signup {
+    background-color: #e8e5e5;
+    height: auto; /* Changed height to auto */
+    width: 80%; /* Changed width to percentage */
+    max-width: 500px; /* Added max-width for responsiveness */
+    margin: 50px auto; /* Centered the form */
+    padding: 30px; /* Added padding */
+    border-radius: 10px; /* Added border radius */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Added shadow */
+}
+
+label {
+    font-size: 16px;
+    color: #333; /* Darkened text color */
+    font-weight: bold; /* Changed font weight */
+    margin-bottom: 5px; /* Added margin bottom */
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px); /* Adjusted input width */
+    padding: 10px; /* Added padding */
+    margin-bottom: 15px; /* Added margin bottom */
+    border: 1px solid #ccc; /* Added border */
+    border-radius: 5px; /* Added border radius */
+    box-sizing: border-box; /* Added box sizing */
+}
+
+button {
+    height: 40px; /* Increased height */
+    width: 100%; /* Made button full width */
+    border: none; /* Removed border */
+    border-radius: 5px; /* Added border radius */
+    background-color: #007bff; /* Changed background color */
+    color: #fff; /* Changed text color */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darkened background color on hover */
+}
+
+h2 {
+    margin: 0 0 20px; /* Added margin bottom */
+    padding: 0;
+    font-size: 24px; /* Increased font size */
+    color: #007bff; /* Changed text color */
+}
+h3{
+    color: #007bff;
+}

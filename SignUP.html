@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SignUP.css">
+    <title>Sign-In Page</title>
+</head>
+
+<body>
+    <div id="signup">
+        <form action="#" onsubmit="return check()">
+           <h2> Sign-Up</h2><br>
+         <label for="name">Name</label>
+         <input id="name"  type="text"required><br>
+         <label for="mobile">Mobile</label> 
+         <p>Ex:-0123456789</p>
+        
+         <input id="mobile"  type="tel" ><br>
+         <label for="mail">G-Mail</label>
+         <p>Ex:-abc123@gmail.com</p>
+         <input id="mail"  type="email"required><br>
+         <label for="address">Address</label>
+         <input id="address"  type="text" required><br>
+        <h3> Create your custom Username and Password</h3><br>
+         <label for="username">Username</label>
+         <p>Contain alphabet,numbers and atleast one . or _</p>
+         <input id="username"  type="text" required><br>
+         <label for="password">Password</label>
+         <p>Must contain 8 to 16 charecter including alphabet,numbers and atleast one special charecter</p>
+         <input id="password"  type="password" required><br>
+         <button id="submit" >Submit</button>
+        </form>
+    </div>
+   </body>
+   <script src="SignUP.js"></script>
+</html>
